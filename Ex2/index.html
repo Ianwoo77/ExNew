@@ -52,6 +52,47 @@
             </div>
         </form>
     </div>
+
+    <div class="container">
+        <select class="form-select">
+            <option>1</option>
+            <option>2</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <input class="form-control" list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge"></option>
+            <option value="Firefox"></option>
+        </datalist>
+    </div>
+
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check1" name="optional" value="some" checked>
+        <label class="form-check-label">option 1</label>
+    </div>
+
+    <div class="form-check">
+        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+        Option1
+        <label class="form-check-label" for="radio1"></label>
+    </div>
+    <div class="form-check">
+        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" >
+        Option2
+        <label class="form-check-label" for="radio2"></label>
+    </div>
+    <div class="form-check">
+        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3" >
+        Option3
+        <label class="form-check-label" for="radio3"></label>
+    </div>
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="myswitch" name="darkmode" value="yes" checked>
+        <label class="form-check-label" for="myswitch">Dark mode</label>
+    </div>
 </body>
 
 </html>
