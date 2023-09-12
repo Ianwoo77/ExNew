@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：11-09-2023 13:49:03
+# 创建时间：12-09-2023 13:24:41
 # 使用模版：V2RaySE 默认模版
-# 节点数量：27
+# 节点数量：62
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,228 +85,473 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"YouTube梦歌_20","type":"vmess","server":"10.kccic2pa.xyz","port":50010,"cipher":"auto","uuid":"6dda6aa3-eef0-4ed3-8b8d-659a50f9805e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"YouTube梦歌_65","type":"vmess","server":"20.kccic2pa.xyz","port":50020,"cipher":"auto","uuid":"6dda6aa3-eef0-4ed3-8b8d-659a50f9805e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"YouTube梦歌_13","type":"vmess","server":"22.kccic2pa.xyz","port":50022,"cipher":"auto","uuid":"6dda6aa3-eef0-4ed3-8b8d-659a50f9805e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"YouTube梦歌_61","type":"vmess","server":"09.kccic2pa.xyz","port":50009,"cipher":"auto","uuid":"6dda6aa3-eef0-4ed3-8b8d-659a50f9805e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港x2-隧道","type":"vmess","server":"tg_mfbpn_i1.52vpn.eu.org","port":63096,"cipher":"auto","uuid":"5c6cd0c9-266e-33e0-8b57-a39ac02ece51","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_136","type":"vmess","server":"45.199.138.161","port":49922,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_126","type":"vmess","server":"45.199.138.188","port":49922,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_107","type":"vmess","server":"156.225.67.55","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694341232847","headers":{"host":"www.52326732.xyz"}}}
-  - {"name":"科技网络 🇺🇸_121","type":"vmess","server":"156.225.67.170","port":49982,"cipher":"auto","uuid":"bd249e37-7359-41ee-84a7-09e49e0ec5c4","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_95","type":"vmess","server":"45.199.138.148","port":46612,"cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"YouTube梦歌_8_1","type":"vmess","server":"43.kccic2pa.xyz","port":50043,"cipher":"auto","uuid":"6dda6aa3-eef0-4ed3-8b8d-659a50f9805e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_46","type":"vmess","server":"156.225.67.158","port":443,"cipher":"auto","uuid":"9c026efe-6af0-465f-b8c0-3f58c8c2d4c5","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694341232847","headers":{"host":"www.84661158.xyz"}}}
-  - {"name":"科技网络 🇺🇸_157","type":"vmess","server":"45.199.138.184","port":37831,"cipher":"auto","uuid":"078eb24d-8d1d-4fbd-b914-ee58a897a35e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_79","type":"vmess","server":"156.225.67.153","port":443,"cipher":"auto","uuid":"a7fa8f14-4fb6-4280-9005-d6bbe99c5da9","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694341232847","headers":{"host":"www.84550179.xyz"}}}
-  - {"name":"YouTube梦歌_25","type":"vmess","server":"js.bfyun.eu.org","port":2082,"cipher":"auto","uuid":"dc3c95ea-d9b1-4178-9f9b-d47235b639ee","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hostodo","headers":{"host":"hostodo.galenet.online"}}}
-  - {"name":"科技网络 🇺🇸_37","type":"vmess","server":"198.2.216.210","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694255849338","headers":{"host":"www.23179753.xyz"}}}
-  - {"name":"YouTube梦歌_23","type":"vmess","server":"32.kccic2pa.xyz","port":50032,"cipher":"auto","uuid":"6dda6aa3-eef0-4ed3-8b8d-659a50f9805e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"YouTube梦歌_29","type":"vmess","server":"41.kccic2pa.xyz","port":50041,"cipher":"auto","uuid":"6dda6aa3-eef0-4ed3-8b8d-659a50f9805e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇫🇷_162","type":"vmess","server":"156.249.18.50","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694341232847","headers":{"host":"www.69414502.xyz"}}}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_8","type":"ss","server":"36.137.19.45","port":55101,"password":"edfcc7a5-a469-4e4a-9520-84b8f9a31bbe","cipher":"aes-128-gcm"}
+  - {"name":"CN_youtube@资源分享师_12","type":"vmess","server":"in06.my1188.org","port":64005,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"biteb-jp98-cdn.mynodes001.one"}}}
+  - {"name":"CN_youtube@资源分享师_1","type":"ss","server":"36.137.19.45","port":55109,"password":"edfcc7a5-a469-4e4a-9520-84b8f9a31bbe","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_68","type":"ss","server":"64.110.86.210","port":32401,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_97","type":"vmess","server":"in06.my1188.org","port":64051,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"in01.mycdn888.xyz"}}}
+  - {"name":"CN_youtube@资源分享师_61","type":"vmess","server":"in06.my1188.org","port":64051,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"in01.mycdn888.xyz"}}}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_27","type":"vmess","server":"in06.my1188.org","port":64014,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us01.wechat-cdn-us01.one"}}}
+  - {"name":"YouTube梦歌_196","type":"vmess","server":"frsadubibb.76898102.xyz","port":2095,"cipher":"auto","uuid":"6ab8886d-dcb5-30c7-8376-caa97ef36e2a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/funsdfrh","headers":{"host":"frsadubib.76898102.xyz"}}}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_21","type":"ss","server":"36.137.19.45","port":55105,"password":"edfcc7a5-a469-4e4a-9520-84b8f9a31bbe","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_85","type":"vmess","server":"singapore.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_20","type":"vmess","server":"in06.my1188.org","port":64005,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"biteb-jp98-cdn.mynodes001.one"}}}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_28","type":"vmess","server":"in06.my1188.org","port":64091,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"uk01-cdn.airport-v2.com"}}}
+  - {"name":"CN_youtube@资源分享师_17","type":"vmess","server":"in06.my1188.org","port":64011,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp-a-biteb.weibo-cdn.best"}}}
+  - {"name":"CN_youtube@资源分享师_47","type":"vmess","server":"in06.my1188.org","port":64082,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkt3-cdn.tencent.best"}}}
+  - {"name":"CN_youtube@资源分享师_81","type":"ss","server":"36.137.19.45","port":55105,"password":"edfcc7a5-a469-4e4a-9520-84b8f9a31bbe","cipher":"aes-128-gcm"}
+  - {"name":"US_youtube@资源分享师_142","type":"vmess","server":"frsadubidd.76898102.xyz","port":2095,"cipher":"auto","uuid":"4896559c-c94e-342a-b208-6107ec292652","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/funsdfrh","headers":{"host":"frsadubid.76898102.xyz"}}}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_61","type":"vmess","server":"172.67.75.194","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"CN_youtube@资源分享师_117","type":"vmess","server":"in06.my1188.org","port":64014,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us01.wechat-cdn-us01.one"}}}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_24","type":"vmess","server":"in06.my1188.org","port":64003,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_42","type":"ss","server":"64.110.86.210","port":32402,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_32","type":"ss","server":"64.110.86.210","port":32601,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_33","type":"ss","server":"64.110.86.210","port":32602,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"_HK_香港_104","type":"vmess","server":"16.163.0.64","port":80,"cipher":"auto","uuid":"58fdbfb6-4bc1-4a54-8be1-c8020e3777e5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"16.163.0.64"}}}
+  - {"name":"DE_youtube@资源分享师_226","type":"trojan","server":"18.159.80.125","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"YouTube梦歌_181","type":"trojan","server":"rzuee-1075-tr-0.d-hinet-02.ddll.bond","port":889,"udp":true,"password":"PtxApBjJcFkxXnYZAQTvALYNvhXjpWKg","sni":"cdn.cjhh.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"YouTube梦歌|杭港隧道|NETFLIX_105","type":"trojan","server":"15.237.21.39","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
   - {"name":"科技网络 🇺🇸_125","type":"vmess","server":"45.199.138.190","port":34987,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"官方群https://t.me/dns68:","type":"vmess","server":"tg_mfbpn_i1.52vpn.eu.org","port":63099,"cipher":"auto","uuid":"5c6cd0c9-266e-33e0-8b57-a39ac02ece51","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_145","type":"vmess","server":"45.199.138.158","port":49933,"cipher":"auto","uuid":"f5250c4e-f855-4eff-b73c-a02226d42fe7","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"YouTube梦歌_8_2","type":"ss","server":"shct.pmxu.link","port":21399,"password":"YX3wgYWMpLKYEnho","cipher":"aes-256-gcm"}
-  - {"name":"YouTube梦歌_6","type":"vmess","server":"cdn.chigua.tk","port":80,"cipher":"auto","uuid":"7e7f8398-bd39-49d8-9ce6-e48ffef463dd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2TokGE9A/","headers":{"host":"us6.cachexy.cf"}}}
-  - {"name":"YouTube梦歌_4","type":"ss","server":"shct.pmxu.link","port":22177,"password":"YX3wgYWMpLKYEnho","cipher":"aes-256-gcm"}
-  - {"name":"YouTube梦歌|深港隧道|解锁流媒体_75","type":"ss","server":"yd.qianggewangluo.buzz","port":10815,"password":"d6ac578c-aab3-4379-9149-68f15de1ccdf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港-06","type":"vmess","server":"tg_mfbpn_i1.52vpn.eu.org","port":63099,"cipher":"auto","uuid":"5c6cd0c9-266e-33e0-8b57-a39ac02ece51","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"科技网络 🇺🇸_145","type":"vmess","server":"198.2.207.113","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694341232847","headers":{"host":"www.63763079.xyz"}}}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_59","type":"ss","server":"64.110.86.210","port":32502,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"科技网络 🇺🇸_192","type":"vmess","server":"107.148.203.113","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694429908748","headers":{"host":"www.46039636.xyz"}}}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_56","type":"ss","server":"64.110.86.210","port":32701,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"科技网络 🇺🇸_138","type":"vmess","server":"199.188.109.229","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694429908748","headers":{"host":"www.26167530.xyz"}}}
+  - {"name":"CN_youtube@资源分享师_5","type":"ss","server":"36.137.19.45","port":55110,"password":"edfcc7a5-a469-4e4a-9520-84b8f9a31bbe","cipher":"aes-128-gcm"}
+  - {"name":"🇦🇺 澳大利亚 01","type":"vmess","server":"in06.my1188.org","port":64003,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"科技网络 🇺🇸_135","type":"vmess","server":"156.225.67.95","port":53381,"cipher":"auto","uuid":"5a4d69ad-20a9-4941-b223-87bbd09f5f52","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_55","type":"ss","server":"64.110.86.210","port":32702,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_35","type":"ss","server":"36.137.19.45","port":55103,"password":"edfcc7a5-a469-4e4a-9520-84b8f9a31bbe","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_48","type":"ss","server":"64.110.86.210","port":32403,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_75","type":"vmess","server":"in06.my1188.org","port":64009,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ru01.tencent.best"}}}
+  - {"name":"科技网络 🇺🇸_72","type":"vmess","server":"156.225.67.229","port":443,"cipher":"auto","uuid":"515bcb4d-0ba1-4cae-87cf-a047007eec54","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694429908748","headers":{"host":"www.73938022.xyz"}}}
+  - {"name":"_US_美国_81","type":"vmess","server":"64.64.233.6","port":80,"cipher":"auto","uuid":"3f95914c-a52b-450f-aa20-988ad720f253","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"64.64.233.6"}}}
+  - {"name":"科技网络 🇺🇸_124","type":"vmess","server":"45.199.138.204","port":51194,"cipher":"auto","uuid":"20b30916-e203-412e-8ec0-900f3acd5128","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_43","type":"ss","server":"64.110.86.210","port":32703,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"DE_youtube@资源分享师_183","type":"trojan","server":"3.64.50.75","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_72","type":"vmess","server":"in06.my1188.org","port":64012,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US_youtube@资源分享师_251","type":"vmess","server":"103.149.144.45","port":19482,"cipher":"auto","uuid":"50a170b7-1198-4603-e51a-0da28605d9e2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"科技网络 🇳🇱_162","type":"vmess","server":"46.182.107.22","port":49922,"cipher":"auto","uuid":"de491802-233e-47f2-8c6c-d19bcf5bd56b","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_50","type":"ss","server":"64.110.86.210","port":32603,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"SE_youtube@资源分享师_254","type":"trojan","server":"16.16.250.228","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_44","type":"ss","server":"64.110.86.210","port":32503,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_53","type":"ss","server":"64.110.86.210","port":32302,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_15","type":"ss","server":"36.137.19.45","port":55104,"password":"edfcc7a5-a469-4e4a-9520-84b8f9a31bbe","cipher":"aes-128-gcm"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_51","type":"ss","server":"64.110.86.210","port":32303,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"_US_美国_79","type":"vmess","server":"74.211.104.159","port":1234,"cipher":"auto","uuid":"f10fa30b-19d1-44a4-b1d4-2e27de3e6976","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lz","headers":{"host":"74.211.104.159"}}}
+  - {"name":"_US_美国_80","type":"vmess","server":"64.64.233.126","port":80,"cipher":"auto","uuid":"d2c43055-d462-45cd-c814-66700cc1094f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/d2c43055-d462-45cd-c814-66700cc1094f","headers":{"host":"64.64.233.126"}}}
+  - {"name":"科技网络 🇺🇸_88","type":"vmess","server":"142.4.112.147","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694341232847","headers":{"host":"www.67023582.xyz"}}}
+  - {"name":"科技网络 🇺🇸_116","type":"vmess","server":"198.2.207.97","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1694429908748","headers":{"host":"www.27790575.xyz"}}}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_49","type":"ss","server":"64.110.86.210","port":32501,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
+  - {"name":"CN_youtube@资源分享师_92","type":"vmess","server":"in06.my1188.org","port":64003,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_46","type":"trojan","server":"shcmb.r1u.cn","port":18036,"udp":true,"password":"9139a77f-f4be-4836-8bdb-f8316b188d1b","sni":"i.love.you.5l.91merry.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"CN_youtube@资源分享师_273","type":"vmess","server":"in06.my1188.org","port":64002,"cipher":"auto","uuid":"c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"br01.tencent.best"}}}
+  - {"name":"YouTube梦歌|深港BGP|Netflix_52","type":"ss","server":"64.110.86.210","port":32301,"password":"f234e3da-452e-4b7c-85f5-50a3ac1d1d34","cipher":"aes-128-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube梦歌_20
-      - YouTube梦歌_65
-      - YouTube梦歌_13
-      - YouTube梦歌_61
-      - 香港x2-隧道
-      - 科技网络 🇺🇸_136
-      - 科技网络 🇺🇸_126
-      - 科技网络 🇺🇸_107
-      - 科技网络 🇺🇸_121
-      - 科技网络 🇺🇸_95
-      - YouTube梦歌_8_1
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_157
-      - 科技网络 🇺🇸_79
-      - YouTube梦歌_25
-      - 科技网络 🇺🇸_37
-      - YouTube梦歌_23
-      - YouTube梦歌_29
-      - 科技网络 🇫🇷_162
+      - YouTube梦歌|深港BGP|Netflix_8
+      - CN_youtube@资源分享师_12
+      - CN_youtube@资源分享师_1
+      - YouTube梦歌|深港BGP|Netflix_68
+      - YouTube梦歌|杭港隧道|NETFLIX_97
+      - CN_youtube@资源分享师_61
+      - YouTube梦歌|杭港隧道|NETFLIX_27
+      - YouTube梦歌_196
+      - YouTube梦歌|杭港隧道|NETFLIX_21
+      - YouTube梦歌|杭港隧道|NETFLIX_85
+      - YouTube梦歌|杭港隧道|NETFLIX_20
+      - YouTube梦歌|杭港隧道|NETFLIX_28
+      - CN_youtube@资源分享师_17
+      - CN_youtube@资源分享师_47
+      - CN_youtube@资源分享师_81
+      - US_youtube@资源分享师_142
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - CN_youtube@资源分享师_117
+      - YouTube梦歌|杭港隧道|NETFLIX_24
+      - YouTube梦歌|深港BGP|Netflix_42
+      - YouTube梦歌|深港BGP|Netflix_32
+      - YouTube梦歌|深港BGP|Netflix_33
+      - _HK_香港_104
+      - DE_youtube@资源分享师_226
+      - YouTube梦歌_181
+      - YouTube梦歌|杭港隧道|NETFLIX_105
       - 科技网络 🇺🇸_125
-      - '官方群https://t.me/dns68:'
       - 科技网络 🇺🇸_145
-      - YouTube梦歌_8_2
-      - YouTube梦歌_6
-      - YouTube梦歌_4
-      - YouTube梦歌|深港隧道|解锁流媒体_75
-      - 香港-06
+      - YouTube梦歌|深港BGP|Netflix_59
+      - 科技网络 🇺🇸_192
+      - YouTube梦歌|深港BGP|Netflix_56
+      - 科技网络 🇺🇸_138
+      - CN_youtube@资源分享师_5
+      - 🇦🇺 澳大利亚 01
+      - 科技网络 🇺🇸_135
+      - YouTube梦歌|深港BGP|Netflix_55
+      - YouTube梦歌|深港BGP|Netflix_35
+      - YouTube梦歌|深港BGP|Netflix_48
+      - YouTube梦歌|深港BGP|Netflix_75
+      - 科技网络 🇺🇸_72
+      - _US_美国_81
+      - 科技网络 🇺🇸_124
+      - YouTube梦歌|深港BGP|Netflix_43
+      - DE_youtube@资源分享师_183
+      - YouTube梦歌|深港BGP|Netflix_72
+      - US_youtube@资源分享师_251
+      - 科技网络 🇳🇱_162
+      - YouTube梦歌|深港BGP|Netflix_50
+      - SE_youtube@资源分享师_254
+      - YouTube梦歌|深港BGP|Netflix_44
+      - YouTube梦歌|深港BGP|Netflix_53
+      - YouTube梦歌|深港BGP|Netflix_15
+      - YouTube梦歌|深港BGP|Netflix_51
+      - _US_美国_79
+      - _US_美国_80
+      - 科技网络 🇺🇸_88
+      - 科技网络 🇺🇸_116
+      - YouTube梦歌|深港BGP|Netflix_49
+      - CN_youtube@资源分享师_92
+      - YouTube梦歌|深港BGP|Netflix_46
+      - CN_youtube@资源分享师_273
+      - YouTube梦歌|深港BGP|Netflix_52
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube梦歌_20
-      - YouTube梦歌_65
-      - YouTube梦歌_13
-      - YouTube梦歌_61
-      - 香港x2-隧道
-      - 科技网络 🇺🇸_136
-      - 科技网络 🇺🇸_126
-      - 科技网络 🇺🇸_107
-      - 科技网络 🇺🇸_121
-      - 科技网络 🇺🇸_95
-      - YouTube梦歌_8_1
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_157
-      - 科技网络 🇺🇸_79
-      - YouTube梦歌_25
-      - 科技网络 🇺🇸_37
-      - YouTube梦歌_23
-      - YouTube梦歌_29
-      - 科技网络 🇫🇷_162
+      - YouTube梦歌|深港BGP|Netflix_8
+      - CN_youtube@资源分享师_12
+      - CN_youtube@资源分享师_1
+      - YouTube梦歌|深港BGP|Netflix_68
+      - YouTube梦歌|杭港隧道|NETFLIX_97
+      - CN_youtube@资源分享师_61
+      - YouTube梦歌|杭港隧道|NETFLIX_27
+      - YouTube梦歌_196
+      - YouTube梦歌|杭港隧道|NETFLIX_21
+      - YouTube梦歌|杭港隧道|NETFLIX_85
+      - YouTube梦歌|杭港隧道|NETFLIX_20
+      - YouTube梦歌|杭港隧道|NETFLIX_28
+      - CN_youtube@资源分享师_17
+      - CN_youtube@资源分享师_47
+      - CN_youtube@资源分享师_81
+      - US_youtube@资源分享师_142
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - CN_youtube@资源分享师_117
+      - YouTube梦歌|杭港隧道|NETFLIX_24
+      - YouTube梦歌|深港BGP|Netflix_42
+      - YouTube梦歌|深港BGP|Netflix_32
+      - YouTube梦歌|深港BGP|Netflix_33
+      - _HK_香港_104
+      - DE_youtube@资源分享师_226
+      - YouTube梦歌_181
+      - YouTube梦歌|杭港隧道|NETFLIX_105
       - 科技网络 🇺🇸_125
-      - '官方群https://t.me/dns68:'
       - 科技网络 🇺🇸_145
-      - YouTube梦歌_8_2
-      - YouTube梦歌_6
-      - YouTube梦歌_4
-      - YouTube梦歌|深港隧道|解锁流媒体_75
-      - 香港-06
+      - YouTube梦歌|深港BGP|Netflix_59
+      - 科技网络 🇺🇸_192
+      - YouTube梦歌|深港BGP|Netflix_56
+      - 科技网络 🇺🇸_138
+      - CN_youtube@资源分享师_5
+      - 🇦🇺 澳大利亚 01
+      - 科技网络 🇺🇸_135
+      - YouTube梦歌|深港BGP|Netflix_55
+      - YouTube梦歌|深港BGP|Netflix_35
+      - YouTube梦歌|深港BGP|Netflix_48
+      - YouTube梦歌|深港BGP|Netflix_75
+      - 科技网络 🇺🇸_72
+      - _US_美国_81
+      - 科技网络 🇺🇸_124
+      - YouTube梦歌|深港BGP|Netflix_43
+      - DE_youtube@资源分享师_183
+      - YouTube梦歌|深港BGP|Netflix_72
+      - US_youtube@资源分享师_251
+      - 科技网络 🇳🇱_162
+      - YouTube梦歌|深港BGP|Netflix_50
+      - SE_youtube@资源分享师_254
+      - YouTube梦歌|深港BGP|Netflix_44
+      - YouTube梦歌|深港BGP|Netflix_53
+      - YouTube梦歌|深港BGP|Netflix_15
+      - YouTube梦歌|深港BGP|Netflix_51
+      - _US_美国_79
+      - _US_美国_80
+      - 科技网络 🇺🇸_88
+      - 科技网络 🇺🇸_116
+      - YouTube梦歌|深港BGP|Netflix_49
+      - CN_youtube@资源分享师_92
+      - YouTube梦歌|深港BGP|Netflix_46
+      - CN_youtube@资源分享师_273
+      - YouTube梦歌|深港BGP|Netflix_52
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌_20
-      - YouTube梦歌_65
-      - YouTube梦歌_13
-      - YouTube梦歌_61
-      - 香港x2-隧道
-      - 科技网络 🇺🇸_136
-      - 科技网络 🇺🇸_126
-      - 科技网络 🇺🇸_107
-      - 科技网络 🇺🇸_121
-      - 科技网络 🇺🇸_95
-      - YouTube梦歌_8_1
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_157
-      - 科技网络 🇺🇸_79
-      - YouTube梦歌_25
-      - 科技网络 🇺🇸_37
-      - YouTube梦歌_23
-      - YouTube梦歌_29
-      - 科技网络 🇫🇷_162
+      - YouTube梦歌|深港BGP|Netflix_8
+      - CN_youtube@资源分享师_12
+      - CN_youtube@资源分享师_1
+      - YouTube梦歌|深港BGP|Netflix_68
+      - YouTube梦歌|杭港隧道|NETFLIX_97
+      - CN_youtube@资源分享师_61
+      - YouTube梦歌|杭港隧道|NETFLIX_27
+      - YouTube梦歌_196
+      - YouTube梦歌|杭港隧道|NETFLIX_21
+      - YouTube梦歌|杭港隧道|NETFLIX_85
+      - YouTube梦歌|杭港隧道|NETFLIX_20
+      - YouTube梦歌|杭港隧道|NETFLIX_28
+      - CN_youtube@资源分享师_17
+      - CN_youtube@资源分享师_47
+      - CN_youtube@资源分享师_81
+      - US_youtube@资源分享师_142
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - CN_youtube@资源分享师_117
+      - YouTube梦歌|杭港隧道|NETFLIX_24
+      - YouTube梦歌|深港BGP|Netflix_42
+      - YouTube梦歌|深港BGP|Netflix_32
+      - YouTube梦歌|深港BGP|Netflix_33
+      - _HK_香港_104
+      - DE_youtube@资源分享师_226
+      - YouTube梦歌_181
+      - YouTube梦歌|杭港隧道|NETFLIX_105
       - 科技网络 🇺🇸_125
-      - '官方群https://t.me/dns68:'
       - 科技网络 🇺🇸_145
-      - YouTube梦歌_8_2
-      - YouTube梦歌_6
-      - YouTube梦歌_4
-      - YouTube梦歌|深港隧道|解锁流媒体_75
-      - 香港-06
+      - YouTube梦歌|深港BGP|Netflix_59
+      - 科技网络 🇺🇸_192
+      - YouTube梦歌|深港BGP|Netflix_56
+      - 科技网络 🇺🇸_138
+      - CN_youtube@资源分享师_5
+      - 🇦🇺 澳大利亚 01
+      - 科技网络 🇺🇸_135
+      - YouTube梦歌|深港BGP|Netflix_55
+      - YouTube梦歌|深港BGP|Netflix_35
+      - YouTube梦歌|深港BGP|Netflix_48
+      - YouTube梦歌|深港BGP|Netflix_75
+      - 科技网络 🇺🇸_72
+      - _US_美国_81
+      - 科技网络 🇺🇸_124
+      - YouTube梦歌|深港BGP|Netflix_43
+      - DE_youtube@资源分享师_183
+      - YouTube梦歌|深港BGP|Netflix_72
+      - US_youtube@资源分享师_251
+      - 科技网络 🇳🇱_162
+      - YouTube梦歌|深港BGP|Netflix_50
+      - SE_youtube@资源分享师_254
+      - YouTube梦歌|深港BGP|Netflix_44
+      - YouTube梦歌|深港BGP|Netflix_53
+      - YouTube梦歌|深港BGP|Netflix_15
+      - YouTube梦歌|深港BGP|Netflix_51
+      - _US_美国_79
+      - _US_美国_80
+      - 科技网络 🇺🇸_88
+      - 科技网络 🇺🇸_116
+      - YouTube梦歌|深港BGP|Netflix_49
+      - CN_youtube@资源分享师_92
+      - YouTube梦歌|深港BGP|Netflix_46
+      - CN_youtube@资源分享师_273
+      - YouTube梦歌|深港BGP|Netflix_52
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube梦歌_20
-      - YouTube梦歌_65
-      - YouTube梦歌_13
-      - YouTube梦歌_61
-      - 香港x2-隧道
-      - 科技网络 🇺🇸_136
-      - 科技网络 🇺🇸_126
-      - 科技网络 🇺🇸_107
-      - 科技网络 🇺🇸_121
-      - 科技网络 🇺🇸_95
-      - YouTube梦歌_8_1
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_157
-      - 科技网络 🇺🇸_79
-      - YouTube梦歌_25
-      - 科技网络 🇺🇸_37
-      - YouTube梦歌_23
-      - YouTube梦歌_29
-      - 科技网络 🇫🇷_162
+      - YouTube梦歌|深港BGP|Netflix_8
+      - CN_youtube@资源分享师_12
+      - CN_youtube@资源分享师_1
+      - YouTube梦歌|深港BGP|Netflix_68
+      - YouTube梦歌|杭港隧道|NETFLIX_97
+      - CN_youtube@资源分享师_61
+      - YouTube梦歌|杭港隧道|NETFLIX_27
+      - YouTube梦歌_196
+      - YouTube梦歌|杭港隧道|NETFLIX_21
+      - YouTube梦歌|杭港隧道|NETFLIX_85
+      - YouTube梦歌|杭港隧道|NETFLIX_20
+      - YouTube梦歌|杭港隧道|NETFLIX_28
+      - CN_youtube@资源分享师_17
+      - CN_youtube@资源分享师_47
+      - CN_youtube@资源分享师_81
+      - US_youtube@资源分享师_142
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - CN_youtube@资源分享师_117
+      - YouTube梦歌|杭港隧道|NETFLIX_24
+      - YouTube梦歌|深港BGP|Netflix_42
+      - YouTube梦歌|深港BGP|Netflix_32
+      - YouTube梦歌|深港BGP|Netflix_33
+      - _HK_香港_104
+      - DE_youtube@资源分享师_226
+      - YouTube梦歌_181
+      - YouTube梦歌|杭港隧道|NETFLIX_105
       - 科技网络 🇺🇸_125
-      - '官方群https://t.me/dns68:'
       - 科技网络 🇺🇸_145
-      - YouTube梦歌_8_2
-      - YouTube梦歌_6
-      - YouTube梦歌_4
-      - YouTube梦歌|深港隧道|解锁流媒体_75
-      - 香港-06
+      - YouTube梦歌|深港BGP|Netflix_59
+      - 科技网络 🇺🇸_192
+      - YouTube梦歌|深港BGP|Netflix_56
+      - 科技网络 🇺🇸_138
+      - CN_youtube@资源分享师_5
+      - 🇦🇺 澳大利亚 01
+      - 科技网络 🇺🇸_135
+      - YouTube梦歌|深港BGP|Netflix_55
+      - YouTube梦歌|深港BGP|Netflix_35
+      - YouTube梦歌|深港BGP|Netflix_48
+      - YouTube梦歌|深港BGP|Netflix_75
+      - 科技网络 🇺🇸_72
+      - _US_美国_81
+      - 科技网络 🇺🇸_124
+      - YouTube梦歌|深港BGP|Netflix_43
+      - DE_youtube@资源分享师_183
+      - YouTube梦歌|深港BGP|Netflix_72
+      - US_youtube@资源分享师_251
+      - 科技网络 🇳🇱_162
+      - YouTube梦歌|深港BGP|Netflix_50
+      - SE_youtube@资源分享师_254
+      - YouTube梦歌|深港BGP|Netflix_44
+      - YouTube梦歌|深港BGP|Netflix_53
+      - YouTube梦歌|深港BGP|Netflix_15
+      - YouTube梦歌|深港BGP|Netflix_51
+      - _US_美国_79
+      - _US_美国_80
+      - 科技网络 🇺🇸_88
+      - 科技网络 🇺🇸_116
+      - YouTube梦歌|深港BGP|Netflix_49
+      - CN_youtube@资源分享师_92
+      - YouTube梦歌|深港BGP|Netflix_46
+      - CN_youtube@资源分享师_273
+      - YouTube梦歌|深港BGP|Netflix_52
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube梦歌_20
-      - YouTube梦歌_65
-      - YouTube梦歌_13
-      - YouTube梦歌_61
-      - 香港x2-隧道
-      - 科技网络 🇺🇸_136
-      - 科技网络 🇺🇸_126
-      - 科技网络 🇺🇸_107
-      - 科技网络 🇺🇸_121
-      - 科技网络 🇺🇸_95
-      - YouTube梦歌_8_1
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_157
-      - 科技网络 🇺🇸_79
-      - YouTube梦歌_25
-      - 科技网络 🇺🇸_37
-      - YouTube梦歌_23
-      - YouTube梦歌_29
-      - 科技网络 🇫🇷_162
+      - YouTube梦歌|深港BGP|Netflix_8
+      - CN_youtube@资源分享师_12
+      - CN_youtube@资源分享师_1
+      - YouTube梦歌|深港BGP|Netflix_68
+      - YouTube梦歌|杭港隧道|NETFLIX_97
+      - CN_youtube@资源分享师_61
+      - YouTube梦歌|杭港隧道|NETFLIX_27
+      - YouTube梦歌_196
+      - YouTube梦歌|杭港隧道|NETFLIX_21
+      - YouTube梦歌|杭港隧道|NETFLIX_85
+      - YouTube梦歌|杭港隧道|NETFLIX_20
+      - YouTube梦歌|杭港隧道|NETFLIX_28
+      - CN_youtube@资源分享师_17
+      - CN_youtube@资源分享师_47
+      - CN_youtube@资源分享师_81
+      - US_youtube@资源分享师_142
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - CN_youtube@资源分享师_117
+      - YouTube梦歌|杭港隧道|NETFLIX_24
+      - YouTube梦歌|深港BGP|Netflix_42
+      - YouTube梦歌|深港BGP|Netflix_32
+      - YouTube梦歌|深港BGP|Netflix_33
+      - _HK_香港_104
+      - DE_youtube@资源分享师_226
+      - YouTube梦歌_181
+      - YouTube梦歌|杭港隧道|NETFLIX_105
       - 科技网络 🇺🇸_125
-      - '官方群https://t.me/dns68:'
       - 科技网络 🇺🇸_145
-      - YouTube梦歌_8_2
-      - YouTube梦歌_6
-      - YouTube梦歌_4
-      - YouTube梦歌|深港隧道|解锁流媒体_75
-      - 香港-06
+      - YouTube梦歌|深港BGP|Netflix_59
+      - 科技网络 🇺🇸_192
+      - YouTube梦歌|深港BGP|Netflix_56
+      - 科技网络 🇺🇸_138
+      - CN_youtube@资源分享师_5
+      - 🇦🇺 澳大利亚 01
+      - 科技网络 🇺🇸_135
+      - YouTube梦歌|深港BGP|Netflix_55
+      - YouTube梦歌|深港BGP|Netflix_35
+      - YouTube梦歌|深港BGP|Netflix_48
+      - YouTube梦歌|深港BGP|Netflix_75
+      - 科技网络 🇺🇸_72
+      - _US_美国_81
+      - 科技网络 🇺🇸_124
+      - YouTube梦歌|深港BGP|Netflix_43
+      - DE_youtube@资源分享师_183
+      - YouTube梦歌|深港BGP|Netflix_72
+      - US_youtube@资源分享师_251
+      - 科技网络 🇳🇱_162
+      - YouTube梦歌|深港BGP|Netflix_50
+      - SE_youtube@资源分享师_254
+      - YouTube梦歌|深港BGP|Netflix_44
+      - YouTube梦歌|深港BGP|Netflix_53
+      - YouTube梦歌|深港BGP|Netflix_15
+      - YouTube梦歌|深港BGP|Netflix_51
+      - _US_美国_79
+      - _US_美国_80
+      - 科技网络 🇺🇸_88
+      - 科技网络 🇺🇸_116
+      - YouTube梦歌|深港BGP|Netflix_49
+      - CN_youtube@资源分享师_92
+      - YouTube梦歌|深港BGP|Netflix_46
+      - CN_youtube@资源分享师_273
+      - YouTube梦歌|深港BGP|Netflix_52
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube梦歌_20
-      - YouTube梦歌_65
-      - YouTube梦歌_13
-      - YouTube梦歌_61
-      - 香港x2-隧道
-      - 科技网络 🇺🇸_136
-      - 科技网络 🇺🇸_126
-      - 科技网络 🇺🇸_107
-      - 科技网络 🇺🇸_121
-      - 科技网络 🇺🇸_95
-      - YouTube梦歌_8_1
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_157
-      - 科技网络 🇺🇸_79
-      - YouTube梦歌_25
-      - 科技网络 🇺🇸_37
-      - YouTube梦歌_23
-      - YouTube梦歌_29
-      - 科技网络 🇫🇷_162
+      - YouTube梦歌|深港BGP|Netflix_8
+      - CN_youtube@资源分享师_12
+      - CN_youtube@资源分享师_1
+      - YouTube梦歌|深港BGP|Netflix_68
+      - YouTube梦歌|杭港隧道|NETFLIX_97
+      - CN_youtube@资源分享师_61
+      - YouTube梦歌|杭港隧道|NETFLIX_27
+      - YouTube梦歌_196
+      - YouTube梦歌|杭港隧道|NETFLIX_21
+      - YouTube梦歌|杭港隧道|NETFLIX_85
+      - YouTube梦歌|杭港隧道|NETFLIX_20
+      - YouTube梦歌|杭港隧道|NETFLIX_28
+      - CN_youtube@资源分享师_17
+      - CN_youtube@资源分享师_47
+      - CN_youtube@资源分享师_81
+      - US_youtube@资源分享师_142
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - CN_youtube@资源分享师_117
+      - YouTube梦歌|杭港隧道|NETFLIX_24
+      - YouTube梦歌|深港BGP|Netflix_42
+      - YouTube梦歌|深港BGP|Netflix_32
+      - YouTube梦歌|深港BGP|Netflix_33
+      - _HK_香港_104
+      - DE_youtube@资源分享师_226
+      - YouTube梦歌_181
+      - YouTube梦歌|杭港隧道|NETFLIX_105
       - 科技网络 🇺🇸_125
-      - '官方群https://t.me/dns68:'
       - 科技网络 🇺🇸_145
-      - YouTube梦歌_8_2
-      - YouTube梦歌_6
-      - YouTube梦歌_4
-      - YouTube梦歌|深港隧道|解锁流媒体_75
-      - 香港-06
+      - YouTube梦歌|深港BGP|Netflix_59
+      - 科技网络 🇺🇸_192
+      - YouTube梦歌|深港BGP|Netflix_56
+      - 科技网络 🇺🇸_138
+      - CN_youtube@资源分享师_5
+      - 🇦🇺 澳大利亚 01
+      - 科技网络 🇺🇸_135
+      - YouTube梦歌|深港BGP|Netflix_55
+      - YouTube梦歌|深港BGP|Netflix_35
+      - YouTube梦歌|深港BGP|Netflix_48
+      - YouTube梦歌|深港BGP|Netflix_75
+      - 科技网络 🇺🇸_72
+      - _US_美国_81
+      - 科技网络 🇺🇸_124
+      - YouTube梦歌|深港BGP|Netflix_43
+      - DE_youtube@资源分享师_183
+      - YouTube梦歌|深港BGP|Netflix_72
+      - US_youtube@资源分享师_251
+      - 科技网络 🇳🇱_162
+      - YouTube梦歌|深港BGP|Netflix_50
+      - SE_youtube@资源分享师_254
+      - YouTube梦歌|深港BGP|Netflix_44
+      - YouTube梦歌|深港BGP|Netflix_53
+      - YouTube梦歌|深港BGP|Netflix_15
+      - YouTube梦歌|深港BGP|Netflix_51
+      - _US_美国_79
+      - _US_美国_80
+      - 科技网络 🇺🇸_88
+      - 科技网络 🇺🇸_116
+      - YouTube梦歌|深港BGP|Netflix_49
+      - CN_youtube@资源分享师_92
+      - YouTube梦歌|深港BGP|Netflix_46
+      - CN_youtube@资源分享师_273
+      - YouTube梦歌|深港BGP|Netflix_52
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -329,33 +574,68 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌_20
-      - YouTube梦歌_65
-      - YouTube梦歌_13
-      - YouTube梦歌_61
-      - 香港x2-隧道
-      - 科技网络 🇺🇸_136
-      - 科技网络 🇺🇸_126
-      - 科技网络 🇺🇸_107
-      - 科技网络 🇺🇸_121
-      - 科技网络 🇺🇸_95
-      - YouTube梦歌_8_1
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_157
-      - 科技网络 🇺🇸_79
-      - YouTube梦歌_25
-      - 科技网络 🇺🇸_37
-      - YouTube梦歌_23
-      - YouTube梦歌_29
-      - 科技网络 🇫🇷_162
+      - YouTube梦歌|深港BGP|Netflix_8
+      - CN_youtube@资源分享师_12
+      - CN_youtube@资源分享师_1
+      - YouTube梦歌|深港BGP|Netflix_68
+      - YouTube梦歌|杭港隧道|NETFLIX_97
+      - CN_youtube@资源分享师_61
+      - YouTube梦歌|杭港隧道|NETFLIX_27
+      - YouTube梦歌_196
+      - YouTube梦歌|杭港隧道|NETFLIX_21
+      - YouTube梦歌|杭港隧道|NETFLIX_85
+      - YouTube梦歌|杭港隧道|NETFLIX_20
+      - YouTube梦歌|杭港隧道|NETFLIX_28
+      - CN_youtube@资源分享师_17
+      - CN_youtube@资源分享师_47
+      - CN_youtube@资源分享师_81
+      - US_youtube@资源分享师_142
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - CN_youtube@资源分享师_117
+      - YouTube梦歌|杭港隧道|NETFLIX_24
+      - YouTube梦歌|深港BGP|Netflix_42
+      - YouTube梦歌|深港BGP|Netflix_32
+      - YouTube梦歌|深港BGP|Netflix_33
+      - _HK_香港_104
+      - DE_youtube@资源分享师_226
+      - YouTube梦歌_181
+      - YouTube梦歌|杭港隧道|NETFLIX_105
       - 科技网络 🇺🇸_125
-      - '官方群https://t.me/dns68:'
       - 科技网络 🇺🇸_145
-      - YouTube梦歌_8_2
-      - YouTube梦歌_6
-      - YouTube梦歌_4
-      - YouTube梦歌|深港隧道|解锁流媒体_75
-      - 香港-06
+      - YouTube梦歌|深港BGP|Netflix_59
+      - 科技网络 🇺🇸_192
+      - YouTube梦歌|深港BGP|Netflix_56
+      - 科技网络 🇺🇸_138
+      - CN_youtube@资源分享师_5
+      - 🇦🇺 澳大利亚 01
+      - 科技网络 🇺🇸_135
+      - YouTube梦歌|深港BGP|Netflix_55
+      - YouTube梦歌|深港BGP|Netflix_35
+      - YouTube梦歌|深港BGP|Netflix_48
+      - YouTube梦歌|深港BGP|Netflix_75
+      - 科技网络 🇺🇸_72
+      - _US_美国_81
+      - 科技网络 🇺🇸_124
+      - YouTube梦歌|深港BGP|Netflix_43
+      - DE_youtube@资源分享师_183
+      - YouTube梦歌|深港BGP|Netflix_72
+      - US_youtube@资源分享师_251
+      - 科技网络 🇳🇱_162
+      - YouTube梦歌|深港BGP|Netflix_50
+      - SE_youtube@资源分享师_254
+      - YouTube梦歌|深港BGP|Netflix_44
+      - YouTube梦歌|深港BGP|Netflix_53
+      - YouTube梦歌|深港BGP|Netflix_15
+      - YouTube梦歌|深港BGP|Netflix_51
+      - _US_美国_79
+      - _US_美国_80
+      - 科技网络 🇺🇸_88
+      - 科技网络 🇺🇸_116
+      - YouTube梦歌|深港BGP|Netflix_49
+      - CN_youtube@资源分享师_92
+      - YouTube梦歌|深港BGP|Netflix_46
+      - CN_youtube@资源分享师_273
+      - YouTube梦歌|深港BGP|Netflix_52
 
 rules:
 # 本地/局域网地址
